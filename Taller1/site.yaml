@@ -22,10 +22,9 @@
 
       # Copia un template a un fichero
     - name: "Copiar un tamplate a un fichero de la máquina remota"
-      template: 
+      template:
         src: template/index.j2
-        dest: 
+        dest: /var/www/html/index.html
         owner: www-data
         group: www-data
         mode: 0644
-    
